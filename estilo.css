@@ -1,0 +1,68 @@
+/* Daniel Fernández Bernardino, UO269783 */
+/*Especificidad: 001*/
+body {
+    font-family: Tahoma, sans-serif;
+    color: #000000;
+    background-color: rgb(242, 239, 202);
+    text-align: justify;
+  
+  }
+  
+  /*Especificidad: 001*/
+  h1 {
+    /* color heredado de body*/
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    padding: 1%;
+  }
+  
+  /* Especificidad 002 */ 
+  h1+p {
+    font-size: 18px;
+  }
+
+  /* Especificidad 001*/
+  h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  /* Especificidad 002*/
+  section {
+    /* color de fuente heredado de body*/
+    background-color: #97f2c7;
+    border: 2px solid #057440;
+    margin: 5% 5% 0%;
+  }
+  
+  /* Especificidad 001*/
+  video {
+    max-width: 100%;
+    height: auto;
+  }  
+
+  /* Especificidad 001*/
+  img {
+    max-width: 100%;
+    height:auto;
+  }
+  
+  /* Especificidad 001*/
+  header, footer {
+    /* color de fuente heredado de body*/
+    background-color: rgb(255, 177, 177);
+    border: solid 2px rgb(247, 43, 43);
+  }
+  
+  /* Especificidad 001 */
+  footer {
+    padding: 2%;
+    margin: 1% 0% 0%;
+  }
+  
+  /* Especificidad 001*/
+  p {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
