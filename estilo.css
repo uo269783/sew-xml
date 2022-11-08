@@ -4,7 +4,6 @@ body {
     font-family: Tahoma, sans-serif;
     color: #000000;
     background-color: rgb(242, 239, 202);
-    text-align: justify;
   
   }
   
@@ -12,27 +11,25 @@ body {
   h1 {
     /* color heredado de body*/
     text-transform: uppercase;
-    text-align: center;
-    font-size: 36px;
+    font-size: 2.25em;
     padding: 1%;
   }
   
   /* Especificidad 002 */ 
   h1+p {
-    font-size: 18px;
+    font-size: 1.125em;
   }
 
   /* Especificidad 001*/
   h2 {
-    font-size: 28px;
-    text-align: center;
+    font-size: 1.75em;
   }
   
   /* Especificidad 002*/
   section {
     /* color de fuente heredado de body*/
     background-color: #97f2c7;
-    border: 2px solid #057440;
+    border: 0.125em solid #057440;
     margin: 5% 5% 0%;
   }
   
@@ -49,16 +46,10 @@ body {
   }
   
   /* Especificidad 001*/
-  header, footer {
+  header {
     /* color de fuente heredado de body*/
-    background-color: rgb(255, 177, 177);
-    border: solid 2px rgb(247, 43, 43);
-  }
-  
-  /* Especificidad 001 */
-  footer {
-    padding: 2%;
-    margin: 1% 0% 0%;
+    background-color: #be84a3;
+    border: solid 0.125em purple;
   }
   
   /* Especificidad 001*/
